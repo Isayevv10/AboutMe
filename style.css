@@ -1,0 +1,29 @@
+        .imagediv{
+			height: 200px;
+		}
+		.img-fluid{
+			height: 100%;
+			width: 100%;
+			border-radius: 100px;
+			margin: 0 0 10px 0;
+		}
+		.details{
+			padding:0 0 0 90px;
+		}
+		a{
+			text-decoration: none;
+			color:#000;
+		}
+		a:hover{
+			color:#000;
+			text-decoration: underline;
+		}
+
+		@media only screen and (max-width: 768px) {
+			.aboutme{
+				padding: 0 0 0 35px;
+			}
+			.details{
+				padding: 0 0 0 35px;
+			}
+		}
